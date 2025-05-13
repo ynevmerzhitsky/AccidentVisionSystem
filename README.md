@@ -36,7 +36,14 @@ AccidentVisionSystem is a modular expert system for detecting road incidents in 
 └── README.md
 ```
 
-## Step-by-Step Setup Instructions with app in Docker
+## Setup Options
+
+Choose the workflow that works best for you:
+
+- [App without Docker](#step-by-step-setup-instructions-app-without-docker)  
+- [App in Docker](#step-by-step-setup-instructions-app-in-docker)
+
+## Step-by-Step Setup Instructions (App in Docker)
 
 ### Prerequisites
 
@@ -120,7 +127,7 @@ cd AccidentVisionSystem
 ```bash
 python3 --version
 python3 -m venv venv
-source venv\Scripts\activate # On Unix venv/bin/activate
+source venv\Scripts\activate # On Unix source venv/bin/activate
 ```
 
 ### 3. Create and Populate `.env`
