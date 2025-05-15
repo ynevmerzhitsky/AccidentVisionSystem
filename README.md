@@ -127,7 +127,7 @@ cd AccidentVisionSystem
 ```bash
 python3 --version
 python3 -m venv venv
-source venv\Scripts\activate # On Unix source venv/bin/activate
+venv\Scripts\activate # On Unix source venv/bin/activate
 ```
 
 ### 3. Create and Populate `.env`
